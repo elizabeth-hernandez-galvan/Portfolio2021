@@ -117,3 +117,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover; 
 }
+
+.imgs{
+    margin-top: 25px;
+    box-shadow: 5px 5px 5px teal;
+}
+
+.gallery{
+    background: lightcyan;
+    padding-bottom: 20px;
+}
