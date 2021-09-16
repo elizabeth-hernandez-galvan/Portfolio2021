@@ -99,3 +99,21 @@ body{
     -moz-box-shadow: -1px 9px 27px -8px teal;
     box-shadow: -1px 9px 27px -8px teal;
 }
+
+.parallax { 
+    background-image: url(https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    min-height: 100vh;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.parallax-1 { 
+    background-image: url(https://images.pexels.com/photos/4084276/pexels-photo-4084276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    min-height: 100vh;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
