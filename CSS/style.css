@@ -55,11 +55,11 @@ body{
 .newline {color: #001AFF;opacity: 0.53;}
 
 .head{
-    background-color: red;
+    background-color: teal;
     border-radius: 5px;
-    -webkit-box-shadow: -1px 9px 27px -8px red;
-    -moz-box-shadow: -1px 9px 27px -8px red;
-    box-shadow: -1px 9px 27px -8px red;
+    -webkit-box-shadow: -1px 9px 27px -8px teal;
+    -moz-box-shadow: -1px 9px 27px -8px teal;
+    box-shadow: -1px 9px 27px -8px teal;
 }
 
 .effect-1 { 
@@ -76,7 +76,7 @@ body{
     left: 50%;
     width: 0;
     height: 2px;
-    background-color: red;
+    background-color: teal;
     transition: 0.4s;
 }
 
@@ -87,7 +87,7 @@ body{
 }
 
 .btn1{
-    background: red;
+    background: teal;
     color: white;
     outline: none;
     border: none;
@@ -95,7 +95,7 @@ body{
     height: 40px;
     width: 145px;
 }.btn1:hover{
-    -webkit-box-shadow: -1px 9px 27px -8px red;
-    -moz-box-shadow: -1px 9px 27px -8px red;
-    box-shadow: -1px 9px 27px -8px red;
+    -webkit-box-shadow: -1px 9px 27px -8px teal;
+    -moz-box-shadow: -1px 9px 27px -8px teal;
+    box-shadow: -1px 9px 27px -8px teal;
 }
