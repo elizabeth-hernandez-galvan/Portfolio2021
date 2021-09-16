@@ -101,7 +101,7 @@ body{
 }
 
 .parallax { 
-    background-image: url(https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.unsplash.com/photo-1616169158811-6144c62622f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFydCUyMHN1cHBsaWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
     min-height: 100vh;   
     background-attachment: fixed;
     background-position: center;
@@ -110,7 +110,7 @@ body{
 }
 
 .parallax-1 { 
-    background-image: url(https://images.pexels.com/photos/4084276/pexels-photo-4084276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
     min-height: 100vh;   
     background-attachment: fixed;
     background-position: center;
