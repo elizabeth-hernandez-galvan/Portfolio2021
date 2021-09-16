@@ -12,19 +12,19 @@ body{
     margin: 0px 50px 10x 50px;  
   }
 
-  .some-page-wrapper {
+.some-page-wrapper {
     margin: 0px;
     background-color: white;
   }
   
-  .row {
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
   }
   
-  .column {
+.column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -33,14 +33,14 @@ body{
     border-bottom: 6px double black;
   }
 
-  .left-column {
+.left-column {
     background-color: #ebf7f1; 
     /*width: 100%;
     height: 100%;*/
     flex-grow: 1;
   }
   
-  .right-column {
+.right-column {
     background-color: #ebf7f1;
     /*width: 90%;
     height: 95%;*/
@@ -53,3 +53,49 @@ body{
 .red {color: #F80000;}
 .grey {color: #3D3C3C;}
 .newline {color: #001AFF;opacity: 0.53;}
+
+.head{
+    background-color: red;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 9px 27px -8px red;
+    -moz-box-shadow: -1px 9px 27px -8px red;
+    box-shadow: -1px 9px 27px -8px red;
+}
+
+.effect-1 { 
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .Focus-border { 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: 0.4s;
+}
+
+.effect-1:focus ~ .Focus-border { 
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+
+.btn1{
+    background: red;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 145px;
+}.btn1:hover{
+    -webkit-box-shadow: -1px 9px 27px -8px red;
+    -moz-box-shadow: -1px 9px 27px -8px red;
+    box-shadow: -1px 9px 27px -8px red;
+}
