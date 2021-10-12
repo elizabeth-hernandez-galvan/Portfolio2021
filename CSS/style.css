@@ -118,6 +118,15 @@ body{
     background-size: cover; 
 }
 
+.parallax-2 { 
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/02/22/05/home-office-4996834_960_720.jpg);
+    min-height: 100vh;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .gallery-block{padding-bottom: 60px; padding-top: 60px;}
 .gallery-block .heading{margin-bottom: 50px; text-align: center;}
 
