@@ -127,7 +127,7 @@ body{
     background-size: cover; 
 }
 
-.Analog { 
+.Mono1 { 
     background-image: url(https://i.postimg.cc/9MTXrQYb/image.png); 
     min-height: 100vh;   
     background-position: center;
@@ -135,7 +135,15 @@ body{
     background-size: cover; 
 }
 
-.Mono { 
+.Mono2 { 
+    background-image: url(https://i.postimg.cc/NjF2jCQp/Monochromatic.png); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.Comp1{ 
     background-image: url(https://i.postimg.cc/nVNq9k92/image.png); 
     min-height: 100vh;   
     background-position: center;
@@ -143,7 +151,14 @@ body{
     background-size: cover; 
 }
 
-.Triad { 
+.Comp2{ 
+    background-image: url(https://i.postimg.cc/bvKtM0cL/Complementary.png); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Analog1 { 
     background-image: url(https://i.postimg.cc/hPqfq37k/image.png); 
     min-height: 100vh;   
     background-position: center;
@@ -151,12 +166,26 @@ body{
     background-size: cover; 
 }
 
-.Comp { 
+.Analog2 { 
+    background-image: url(https://i.postimg.cc/SxkzbQPF/Analogogous.png); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Triad1 { 
     background-image: url(https://i.postimg.cc/T2n3QqHC/image.png); 
     min-height: 100vh;   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+}
+
+.Triad2 { 
+    background-image: url(https://i.postimg.cc/PxgP3dD7/Triad.png); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 
 .gallery-block{padding-bottom: 60px; padding-top: 60px;}
