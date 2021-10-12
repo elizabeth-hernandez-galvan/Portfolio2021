@@ -127,6 +127,38 @@ body{
     background-size: cover; 
 }
 
+.Analog { 
+    background-image: url(https://i.postimg.cc/9MTXrQYb/image.png); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Mono { 
+    background-image: url(https://i.postimg.cc/9MTXrQYb/image.png); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Triad { 
+    background-image: url(https://i.postimg.cc/9MTXrQYb/image.png); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Comp { 
+    background-image: url(https://i.postimg.cc/9MTXrQYb/image.png); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .gallery-block{padding-bottom: 60px; padding-top: 60px;}
 .gallery-block .heading{margin-bottom: 50px; text-align: center;}
 
