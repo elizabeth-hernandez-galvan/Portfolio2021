@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Add CSS File-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    
+    
+    <div class="container text-center header">
+      <h1 class="h1 font-effect-shadow-multiple">Elizabeth Hernandez Galvan</h1>
+    </div>
+  
+    <ul class="nav justify-content-center bg-dark">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/42dc46496f.js" crossorigin="anonymous"></script>
+
+    <section class="m-5">
+        <br><h1 class="text-center"><strong>Project 2:  Typeface Poster</strong></h1><br>
+        <p class="text-center">For this project, the task was to pick a typeface and create a poster that communicates the essential characteristics of letter forms unique to that typeface. <br><strong>Restrictions:</strong> can only use type and color, but type must be the only graphic element in the poster. The poster itself should reflect the nature of the typeface <br>as currently used and as intended by the original typeface designer. <strong>Tools:</strong> Illustrator; <strong>Typeface:</strong> Shelley Script; <strong>Duration:</strong> 2 weeks</p>
+    </section>
+
+    <section class="m-5">
+        <h1 class="text-left"><strong>Low-fi</strong></h1><br>
+        <div class="container border border-dark">
+            <div class="row">
+              <div class="col Mono1"></div>
+              <div class="col-3 bg-white Mono2"></div>
+            </div>
+    </section>
+
+    <section class="m-5">
+        <br><h1 class="text-left"><strong>High-fi</strong></h1><br>
+            <!-- Container for the image gallery -->
+<div class="gallery-container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+        <img src="https://i.postimg.cc/W4mbXHNw/Version1.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+        <img src="https://i.postimg.cc/rpg2dXy3/Version2.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+        <img src="https://i.postimg.cc/D0J9YSQ3/Version3.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+        <img src="https://i.postimg.cc/c4ZzqkBb/Version4.jpg" style="width:50%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://i.postimg.cc/W4mbXHNw/Version1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://i.postimg.cc/rpg2dXy3/Version2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://i.postimg.cc/D0J9YSQ3/Version3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://i.postimg.cc/c4ZzqkBb/Version4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+  </div>
+    </section>
+
+    <section class="m-5">
+        <br><h1 class="text-left"><strong>Final Version</strong></h1><br>
+        <div class="container border border-dark">
+            <img src="https://i.postimg.cc/JnC4QQcW/Final-Version.jpg" class="img-fluid">
+    </section>
+
+
+    <!-- Footer -->
+  <div class="container footer">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="text-muted">&copy; 2021</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="Elizabeth.Hernandez-Galvan@scholar.smash.org"><i class="fas fa-envelope-open-text"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://devpost.com/elizabeth-hernandez-galvan?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"><i class="fab fa-dev"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/ely-hdz/"><i class="fab fa-linkedin"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://github.com/elizabeth-hernandez-galvan"><i class="fab fa-github"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+  
+</body>
+</html>
