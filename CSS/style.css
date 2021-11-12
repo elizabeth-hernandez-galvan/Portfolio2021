@@ -135,6 +135,14 @@ body{
     background-size: cover; 
 }
 
+.Mono1-2 { 
+    background-image: url(https://i.postimg.cc/Wzs9TWLd/P1-Revised-Pg1.jpg); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .Mono2 { 
     background-image: url(https://i.postimg.cc/NjF2jCQp/Monochromatic.png); 
     min-height: 100vh;   
@@ -145,6 +153,14 @@ body{
 
 .Comp1{ 
     background-image: url(https://i.postimg.cc/T3TsBmqV/Des16-1.jpg); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Comp1-2{ 
+    background-image: url(https://i.postimg.cc/RhqH7KwP/P1-Revised-Pg2.jpg); 
     min-height: 100vh;   
     background-position: center;
     background-repeat: no-repeat;
@@ -166,6 +182,14 @@ body{
     background-size: cover; 
 }
 
+.Analog1-2 { 
+    background-image: url(https://i.postimg.cc/Y0Vmb03t/P1-Revised-Pg3.jpg); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .Analog2 { 
     background-image: url(https://i.postimg.cc/SxkzbQPF/Analogogous.png); 
     min-height: 100vh;   
@@ -175,6 +199,14 @@ body{
 
 .Triad1 { 
     background-image: url(https://i.postimg.cc/XvmQNyFD/Des16-3.jpg); 
+    min-height: 100vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Triad1-2 { 
+    background-image: url(https://i.postimg.cc/15kqFgXH/P1-Revised-Pg4.jpg); 
     min-height: 100vh;   
     background-position: center;
     background-repeat: no-repeat;
